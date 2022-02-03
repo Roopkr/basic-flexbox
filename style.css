@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    color: rgb(20, 20, 20);
+    font-family: 'Century Gothic';
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    font-weight: 100;
+    text-align: center;
+    background-color: #d2f8ff;
+    width: 500px;
+    transition: all 0.5s;
+}
+
+h1:hover {
+    font-size: 3em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    margin: 15px;
+    height: 400px;
+    width: 500px;
+    transition: all 0.5s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
